@@ -9,6 +9,11 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# Data files -- too large for version control so leaving locally
+train.csv
+test.csv
+
+
 # IPython
 profile_default/
 ipython_config.py
