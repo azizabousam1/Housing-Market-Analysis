@@ -1,15 +1,9 @@
-Introduction
+# Santander Customer Transaction Prediction
+## Introduction
+ The subject domain we will be exploring is consumer habits. The consumer has many things to consider when making purchases. It is in a business’s best interest to have consumers purchase their products and know what the consumer wants and why. For this project, we will be focusing on a dataset from the Company Santander to help them predict who will make a purchase from them. We will employ machine learning algorithms to predict whether a consumer will do this.
+## Project Problem Statement
+There are many insights we can gain and analyze from this dataset. The main goal though is to figure out what factors are the main drivers of making a purchase with the company Santander. Santander and most companies’ mission is to create more transactions for their company for themselves so they may thrive as a business. Most of the data that has been provided to us has no plane understandable meaning. We must figure out through analysis where there are correlations between these factors, remove those that don’t seem to matter, and predict finally whether the consumer will in fact purchase their products. This type of problem is a good candidate for machine learning as the factors that lead up to whether a consumer will make a transaction are highly dimensional and can be hard to predict simply by a human.
+## Data set
+https://www.kaggle.com/c/santander-customer-transaction-prediction
 
-The subject domain we will be exploring is in real estate in the United States. The pricing of homes in the United States has been rising by an unexpected rate, driven by various factors including supply shortages, increased demand, and market speculation. For this project, we will focus on housing values in Portland during 2021, two distinct markets that experienced the effects of the pandemic. Using historical data, we will employ machine learning algorithms to predict housing values in these regions, aiming to identify key variables that influence price changes and improve predictive accuracy.
-
-Project Problem Statement
-
-There are many insights we can gain and analyze from this dataset. The main goal is to approach it as if we are a real estate investment company wanting to understand how the housing market has evolved, such as prices trends over time. We aim to predict housing prices using various features, helping forecast sales prices for different types and sizes of houses. We want to understand the future market trends, such as which type of properties, neighborhoods or zip codes are likely to ‘boom and bust’ and see price changes. We plan to analyze which features are important for predicting house prices, then group similar neighborhoods together to find the likelihood of a property being sold at what rate.
-
-For a more detailed analysis, we’ll look at property descriptions to find specific keywords or word counts that might impact on sales. Understanding these patterns and insights will help us make better decisions for investing in properties and accurately target marketing strategies towards.
-
-Data set
-
-https://www.kaggle.com/datasets/threnjen/portland-housing-prices-sales-jul-2020-jul-2021
-
-We are using a dataset from Kaggle.com titled Zillow Portland Housing Prices/Sales Jul 2020 - Jul 2021. It contains 25,731 instances and 348 features. The data focuses on the Portland, OR housing market and covers home sales in 2020 and 2021. During this period, prices in this market skyrocketed, making the once-affordable market no longer affordable, even in suburban areas. The pandemic did not seem to hinder home sales or price increases. This dataset offers a lot of insights into the booming suburban real estate market. Notable features include among others property Address, Zipcode, DateSold, DaysOnZillow, Favorite Count, and YearBuilt.
+We are using a dataset from Kaggle titled Santander Customer Transaction Prediction. Santander is a financial services company that offers retail and commercial banking services and is interested in identifying which customers will make a specific transaction in the future. The dataset is split into a training and test dataset where each set has 200,000 instances and 200 columns. In the training set, a binary target column is provided indicating if the customer made a purchase and 200 real-number variables that can be used to predict the target column.
