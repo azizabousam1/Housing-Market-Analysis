@@ -3,3 +3,7 @@ scikit-learn
 numpy
 matplotlib
 pre-commit
+lightgbm
+xgboost
+seaborn
+graphviz
